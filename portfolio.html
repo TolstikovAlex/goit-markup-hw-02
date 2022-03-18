@@ -1,42 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="/">
-                <img src="./css/images/WebStudio.svg" alt="WebStudio">
-            </a>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+38096111111">+38 096 111 11 11</a></li>
-        </ul>
-    </header>
-
-
-
-    
-    <footer>
-        <a href="/">
-            <img src="./css/images/WebStudio.svg" alt="WebStudio">
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!--  Шапка сайта  -->
+    <header class="page-header">
+      <nav>
+        <a href="/" class="logo">
+          <img src="./images/WebStudio.svg" alt="WebStudio" />
         </a>
-        <address>г. Киев, пр-т Леси Украинки, 26</address>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+38096111111">+38 096 111 11 11</a></li>
+        <ul class="site-nav">
+          <li><a href="./index.html" class="nav-link">Студия</a></li>
+          <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+          <li><a href="" class="nav-link">Контакты</a></li>
         </ul>
+      </nav>
+      <ul>
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+38096111111" class="contact">+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </header>
+    <!--  Фильтр  -->
+    <main>
+      <ul class="buttons">
+        <li><button type="button" class="button">Все</button></li>
+        <li><button type="button" class="button">Веб-сайты</button></li>
+        <li><button type="button" class="button">Приложения</button></li>
+        <li><button type="button" class="button">Дизайн</button></li>
+        <li><button type="button" class="button">Маркетинг</button></li>
+      </ul>
+
+      <!--  Примеры работ  -->
+
+      <section>
+        <h1>Наши проекты</h1>
+        <ul>
+          <li>
+            <img
+              src="./images/project1.jpg"
+              alt="Сайт проекта технокряк. Члены команды проекта."
+              width="370"
+              height="294"
+            />
+            <h2>Технокряк</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="./images/project2.jpg"
+              alt="Постер баскетбольных команд New Orleans и Golden Star."
+              width="370"
+              height="294"
+            />
+            <h2>Постер New Orlean vs Golden Star</h2>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="./images/project3.jpg"
+              alt="Приложение ресторна Seafood. Логотип в виде рыбы с названием ресторана."
+              width="370"
+              height="294"
+            />
+            <h2>Ресторан Seafood</h2>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <img
+              src="./images/project4.jpg"
+              alt="Проект Prime. Черные накладные наушники."
+              width="370"
+              height="294"
+            />
+            <h2>Проект Prime</h2>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/project5.jpg"
+              alt="Проект Boxes. Две небольшие коробки."
+              width="370"
+              height="294"
+            />
+            <h2>Проект Boxes</h2>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <img
+              src="./images/project6.jpg"
+              alt="Веб-сайт Inspiration has no Borders. Страница сайта в темном дизайне."
+              width="370"
+              height="294"
+            />
+            <h2>Inspiration has no Borders</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="./images/project7.jpg"
+              alt="Издание Limited Edition. Разворот глянцевого журнала."
+              width="370"
+              height="294"
+            />
+            <h2>Издание Limited Edition</h2>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="./images/project8.jpg"
+              alt="Проект LAB. Бирка с названием проекта."
+              width="370"
+              height="294"
+            />
+            <h2>Проект LAB</h2>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/project9.jpg"
+              alt="Приложение Growing Business. Изображение главной страницы сайта."
+              width="370"
+              height="294"
+            />
+            <h2>Growing Business</h2>
+            <p>Приложение</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--  Подвал  -->
+
+    <footer class="page-footer">
+      <a href="/">
+        <img src="./images/WebStudio.svg" alt="WebStudio" />
+      </a>
+      <address class="address">
+        <p>г. Киев, пр-т Леси Украинки, 26</p>
+        <ul>
+          <li>
+            <a href="mailto:info@example.com" class="address-mail">info@example.com</a>
+          </li>
+          <li>
+            <a href="tel:+38096111111" class="address-tel">+38 099 111 11 11</a>
+          </li>
+        </ul>
+      </address>
     </footer>
-    
-</body>
+  </body>
 </html>
